@@ -1,0 +1,87 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+main {
+  background-image: url(member.jpg);
+  background-size: 100% 100%;
+  width: auto;
+  height: 100vh; }
+  main .pic {
+    background-color: rgba(128, 128, 128, 0.466);
+    width: auto;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    main .pic section {
+      width: 80vw;
+      height: auto;
+      text-align: center;
+      -webkit-transition: 0.5s ease-in-out;
+      transition: 0.5s ease-in-out; }
+      main .pic section .heading {
+        background-color: #142133;
+        color: wheat;
+        width: 100%;
+        height: 4vw; }
+        main .pic section .heading h1 {
+          font-size: 3vw; }
+      main .pic section .text {
+        margin: 0.5vw 0%;
+        width: 100%;
+        height: 28vw; }
+        main .pic section .text textarea {
+          border: none;
+          background: rgba(255, 255, 255, 0.445);
+          color: black;
+          width: 100%;
+          height: 100%;
+          resize: none;
+          padding-left: 0.5vw;
+          font-size: 1.5vw;
+          outline: none;
+          -webkit-transition: 0.2s ease-in-out;
+          transition: 0.2s ease-in-out; }
+        main .pic section .text textarea:focus {
+          border: 1px solid #142133;
+          color: #142133;
+          background: rgba(255, 255, 255, 0.795);
+          border-radius: 0.5vw;
+          -webkit-box-shadow: 5px 5px 5px #1421332a;
+                  box-shadow: 5px 5px 5px #1421332a; }
+      main .pic section .counter {
+        background-color: #142133;
+        color: wheat;
+        width: 100%;
+        height: 3vw;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        main .pic section .counter p {
+          font-size: 1.7vw;
+          font-weight: bold; }
+          main .pic section .counter p #word, main .pic section .counter p #character {
+            color: white;
+            font-size: 2vw; }
+  main section:hover {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+    -webkit-box-shadow: -10px 10px 10px #14213388;
+            box-shadow: -10px 10px 10px #14213388; }
+
+/*# sourceMappingURL=style.css.map */
